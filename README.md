@@ -8,42 +8,27 @@ page views. In this paper, it is seeked to produce a model that can accurately p
 news spam detection systems into their workflows to maintain the integrity of the information they deliver to their audiences.News spam detection involves the use of advanced technology, particularly machine learning and natural language processing (NLP), to automatically distinguish between legitimate news articles and spammy or misleading content. By leveraging statistical patterns, linguistic cues, and contextual information, these systems can help ensure that readers are presented with trustworthy and reliable news source.
 
 ## 2.Literature Survey
-  * Fake news is false or misleading information that is presented as news. It can be 
-  spread through social media, news outlets, or other channels
+  * Fake news is false or misleading information that is presented as news. It can be spread through social media, news outlets, or other channels
 
-  * True news is accurate and factual information that is presented in a fair and unbiased 
-  way. It is typically reported by reputable news organizations.
+  * True news is accurate and factual information that is presented in a fair and unbiased way. It is typically reported by reputable news organizations.
 
-“We know that fake news can have a negative impact on society, and we’re committed to 
-working with others to address this problem. We’re investing in a variety of initiatives to 
-combat fake news, including machine learning research, fact-checking partnerships, and 
-education programs.”                                               __~ Mark Zuckerberg, CEO of Facebook__
+“We know that fake news can have a negative impact on society, and we’re committed to working with others to address this problem. We’re investing in a variety of initiatives to combat fake news, including machine learning research, fact-checking partnerships, and education programs.”                                               __~ Mark Zuckerberg, CEO of Facebook__
 
-“We know that fake news can have a negative impact on society, and we’re committed to 
-working with others to address this problem. We’re investing in a variety of initiatives to 
-combat fake news, including machine learning research, fact-checking partnerships, and 
-education programs.”                    __~ Jeff Bezos, CEO of Amazon__
+“We know that fake news can have a negative impact on society, and we’re committed to working with others to address this problem. We’re investing in a variety of initiatives to combat fake news, including machine learning research, fact-checking partnerships, and education programs.”                    __~ Jeff Bezos, CEO of Amazon__
 
-“We believe that it’s important for people to be able to make informed decisions, and that 
-includes having access to accurate information. That’s why we’re working hard to combat fake 
-news and ensure that people on Google Search have access to high-quality journalism.”             __~ Sundar Pichai, CEO of Google__
+“We believe that it’s important for people to be able to make informed decisions, and that includes having access to accurate information. That’s why we’re working hard to combat fake news and ensure that people on Google Search have access to high-quality journalism.”             __~ Sundar Pichai, CEO of Google__
 
 
 ## 3.Statistical Analysis
   * ##### Sources of Data for Analysis:
-      News websites are the primary source of data for analysis, as they contain a wealth of 
-      information. Social media platforms such as Twitter and Facebook are also useful in 
-      identifying trending news topics, but algorithms should be employed to avoid the spread 
-      of misinformation.
+      News websites are the primary source of data for analysis, as they contain a wealth of information. Social media platforms such as Twitter and Facebook are also useful in identifying trending news        topics, but algorithms should be employed to avoid the spread of misinformation.
 
   * ##### Criteria for Selecting and Labeling Spam Articles:
       Criteria for identifying spam include sensational headlines, false claims, and click-bait 
       style content. Labeling spam is essential to create a reliable training dataset.
 
   * ##### Challenges in Collecting and Annotating the Data:
-      The challenge in collecting and annotating data lies in the need to create a dataset that 
-      adequately covers the potential set of spam tactics. This is an ever-changing landscape, 
-      with new forms of spam emerging constantly.
+      The challenge in collecting and annotating data lies in the need to create a dataset that adequately covers the potential set of spam tactics. This is an ever-changing landscape, with new forms of        spam emerging constantly.
 
   * ##### Exploratory Data Analysis:
       EDA techniques such as histograms, scatter plots, and heatmaps are useful in 
