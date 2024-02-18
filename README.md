@@ -388,34 +388,22 @@ True Positive represents the value of correct predictions of positives out of ac
 
 $$ Accuracy = {Correct Perdiction \over Total Prediction} = { TP + TN \over TP + FN + TN + FP} $$
 
-* Confusion Matrix – Precision, Recall, F1-Measure Scores: A confusion matrix is a 
-performance measurement table having four compartments of predicted and actual 
-values of a classifier model. It displays the number of correct and incorrect predictions gotten by the model.
+* Confusion Matrix – Precision, Recall, F1-Measure Scores: A confusion matrix is a performance measurement table having four compartments of predicted and actual values of a classifier model. It displays the number of correct and incorrect predictions gotten by the model.
 
-The precision score is a measure of the truly predicted number of positive classes that is, how 
-many of the classes are actually positive.
+The precision score is a measure of the truly predicted number of positive classes that is, how many of the classes are actually positive.
 
 $$ Precision Score = {TP \over FP + TP} $$
 
-Recall score is the measure of all the truly predicted positive classes by the model. It is also 
-known as True Positive Rate. 
+Recall score is the measure of all the truly predicted positive classes by the model. It is also known as True Positive Rate. 
 
 $$ Recall Score = {TP \over FN + TP} $$
 
-F1 score combines the precision score and recall score and takes their harmonic mean. The 
-harmonic mean is the measure for ratios and rates.
+F1 score combines the precision score and recall score and takes their harmonic mean. The harmonic mean is the measure for ratios and rates.
 
 $$ F1 Score = { 2 + Precision + Recall Score \over Precision Score + Recall Score} $$
 
 #### 4.6 Support Vector Machine
-Support vector machine (SVM) is another model for binary classification problem and is 
-available in various kernels functions . The objective of an SVM model is to estimate a 
-hyperplane (or decision boundary) on the basis of feature set to classify data points. The 
-dimension of hyperplane varies according to the number of features. As there could be 
-multiple possibilities for a hyperplane to exist in an N-dimensional space, the task is to 
-identify the plane that separates the data points of two classes with maximum margin. A 
-mathematical representation of the cost function for the SVM model is defined as given 
-as
+Support vector machine (SVM) is another model for binary classification problem and is available in various kernels functions . The objective of an SVM model is to estimate a hyperplane (or decision boundary) on the basis of feature set to classify data points. The dimension of hyperplane varies according to the number of features. As there could be multiple possibilities for a hyperplane to exist in an N-dimensional space, the task is to identify the plane that separates the data points of two classes with maximum margin. A mathematical representation of the cost function for the SVM model is defined as given as
 
 $$ J(\theta) = \left( 1 \over 2 \right) \sum_{j=1}^n \theta _j^2, $$
 
