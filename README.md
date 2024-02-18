@@ -413,9 +413,7 @@ $$ \theta ^T x^i ≥ 1 , y^i = 1,$$
 
 $$ \theta ^T x^i ≤ -1 , y^i = 0. $$
 
-The function above uses a linear kernel. Kernels are usually used to fit data points that 
-cannot be easily separable or data points that are multidimensional. In our case, we have 
-used sigmoid SVM, kernel SVM (polynomial SVM), Gaussian SVM, and basic linear SVM
+The function above uses a linear kernel. Kernels are usually used to fit data points that cannot be easily separable or data points that are multidimensional. In our case, we have used sigmoid SVM, kernel SVM (polynomial SVM), Gaussian SVM, and basic linear SVM
 
 ```python
 from sklearn.svm import SVC
@@ -443,21 +441,8 @@ print(f"Classification Report:\n{classification_rep}")
 
 #### 4.7 Artificial Neural network
 
-Artificial Neural Networks/Neural Networks(NN) mimic the function of the Biological 
-Neural Networks, NN will try to mimic a human brain in its decision making. 
-Transformers The most commonly used transformer algorithm is Bidirectional Encoder 
-Representations from Transformers(BERT). BERT is a pre-trained model that is 
-developed by researchers at Google AI language department [20]. There are some 
-differences between BERT and other transformers. Other pre-trained algorithms use 
-either feature-based training or fine-tuning. Feature-based has a task-specific 
-architecture that will include the data as features. The finetuning approach has minimal 
-task-specific parameters but will fine-tune the parameters according to the pre-training 
-data. The researchers at Google saw flaws in these two approaches and worked on their 
-way to improve the fine-tuning approach. To improve the fine-tuning they would use 
-Masked Language Modeling (MLM) combined with next sentence prediction (NSP), 
-this would help the algorithm to fuse the context better and get a better 16 | Background 
-understanding of the language. Compared to regular training MLM will learn the 
-algorithm to be able to predict words from left-to-right as well as right- to-left. 
+Artificial Neural Networks/Neural Networks(NN) mimic the function of the Biological Neural Networks, NN will try to mimic a human brain in its decision making. Transformers The most commonly used transformer algorithm is Bidirectional Encoder Representations from Transformers(BERT). BERT is a pre-trained model that is developed by researchers at Google AI language department [20]. There are some 
+differences between BERT and other transformers. Other pre-trained algorithms use either feature-based training or fine-tuning. Feature-based has a task-specific architecture that will include the data as features. The finetuning approach has minimal task-specific parameters but will fine-tune the parameters according to the pre-training data. The researchers at Google saw flaws in these two approaches and worked on their way to improve the fine-tuning approach. To improve the fine-tuning they would use Masked Language Modeling (MLM) combined with next sentence prediction (NSP), this would help the algorithm to fuse the context better and get a better 16 | Background understanding of the language. Compared to regular training MLM will learn the algorithm to be able to predict words from left-to-right as well as right- to-left. 
 
 ```python
 #tensorflow will works in below 3.11 python versions
@@ -496,17 +481,9 @@ print(f"Test accuracy: {test_accuracy}")
 
 ### Un-supervised Learning
 
-Unsupervised learning cannot be directly applied to a regression or classification problem 
-because unlike supervised learning, we have the input data but no corresponding output data. 
-The goal of unsupervised learning is to find the underlying structure of dataset, group that data 
-according to similarities, and represent that dataset in a compressed format.
+Unsupervised learning cannot be directly applied to a regression or classification problem because unlike supervised learning, we have the input data but no corresponding output data. The goal of unsupervised learning is to find the underlying structure of dataset, group that data according to similarities, and represent that dataset in a compressed format.
 
-Example: Suppose the unsupervised learning algorithm is given an input dataset containing 
-images of different types of cats and dogs. The algorithm is never trained upon the given 
-dataset, which means it does not have any idea about the features of the dataset. The task of the 
-unsupervised learning algorithm is to identify the image features on their own. Unsupervised 
-learning algorithm will perform this task by clustering the image dataset into the groups 
-according to similarities between images.
+Example: Suppose the unsupervised learning algorithm is given an input dataset containing images of different types of cats and dogs. The algorithm is never trained upon the given dataset, which means it does not have any idea about the features of the dataset. The task of the unsupervised learning algorithm is to identify the image features on their own. Unsupervised learning algorithm will perform this task by clustering the image dataset into the groups according to similarities between images.
 
 #### Types of Unsupervised Learning Algorithm:
 
