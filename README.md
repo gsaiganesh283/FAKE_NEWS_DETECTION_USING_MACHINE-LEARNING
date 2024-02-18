@@ -268,20 +268,10 @@ print(f"Classification Report:\n{classification_rep}")
 </p>
 
 #### 4.3 Decision Tree
-Decision tree algorithm is a powerful tool for classification and regression tasks. 
-It constructs a tree-like model by partitioning the data based on features. Each 
-internal node represents a test on a feature, while each leaf node represents a 
-class label or a regression value. The algorithm's intuitive nature and ability to 
-handle both numerical and categorical data make it a popular choice for various 
-applications.
+Decision tree algorithm is a powerful tool for classification and regression tasks. It constructs a tree-like model by partitioning the data based on features. Each internal node represents a test on a feature, while each leaf node represents a class label or a regression value. The algorithm's intuitive nature and ability to handle both numerical and categorical data make it a popular choice for various applications.
 
 ##### News Spam Detection Approach Using Decision Trees
-Applying decision trees to news spam detection involves training the model on 
-labeled data, where each news article is classified as spam or non-spam. By 
-analyzing the article's features, such as the frequency of certain keywords, 
-presence of suspicious URLs, or suspicious user behavior, the decision tree can 
-make accurate predictions on new, unseen articles. This approach has shown 
-promising results in improving the effectiveness of spam detection systems.
+Applying decision trees to news spam detection involves training the model on labeled data, where each news article is classified as spam or non-spam. By analyzing the article's features, such as the frequency of certain keywords, presence of suspicious URLs, or suspicious user behavior, the decision tree can make accurate predictions on new, unseen articles. This approach has shown promising results in improving the effectiveness of spam detection systems.
 
 <p align="center">
 <img src="https://github.com/gsaiganesh283/FAKE_NEWS_DETECTION_USING_MACHINE-LEARNING/assets/121511326/a4ad034d-8562-4d0b-957a-36a3ac561ae4" />
@@ -315,16 +305,10 @@ print(f"Classification Report:\n{classification_rep}")
 ##### 4.4 Random Forest
 
 ##### Predictive Power
-Random forest algorithms have proven highly effective in minimizing the risk 
-of overfitting and improving the accuracy of news spam detection. By 
-aggregating the predictions of multiple decision trees, we can create a robust 
-model that generalizes well to new data.
+Random forest algorithms have proven highly effective in minimizing the risk of overfitting and improving the accuracy of news spam detection. By aggregating the predictions of multiple decision trees, we can create a robust model that generalizes well to new data.
 
 ##### Interpretability
-Random forests also offer interpretability, allowing us to understand the 
-reasoning behind the classification decisions. This transparency is crucial in 
-identifying the key features contributing to classification, enhancing the 
-explanation and trustworthiness of our models.
+Random forests also offer interpretability, allowing us to understand the reasoning behind the classification decisions. This transparency is crucial in identifying the key features contributing to classification, enhancing the explanation and trustworthiness of our models.
 
 ```python
 from sklearn.ensemble import RandomForestClassifier
