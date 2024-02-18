@@ -49,53 +49,32 @@ news spam detection systems into their workflows to maintain the integrity of th
     | Cross-validation Technique | Helps in determining the optimal hyperparameters for the model. |
 
 * ##### Performance of the Statistical Analysis Model:
-    Our analysis indicates that a statistical analysis model is an effective tool for detecting 
-news spam, achieving high accuracy and F1 score when evaluated against the test data.
+    Our analysis indicates that a statistical analysis model is an effective tool for detecting news spam, achieving high accuracy and F1 score when evaluated against the test data.
 
 * ##### Comparison with Existing Spam Detection Methods:
-    Our analysis outperformed other existing spam detection methods such as manual 
-labeling and rule-based filtering.
+    Our analysis outperformed other existing spam detection methods such as manual labeling and rule-based filtering.
 
 * ##### Insights and Conclusions Drawn from the Analysis:
-    Statistical analysis is a useful approach to detecting news spam. Techniques such as EDA 
-and feature engineering can improve the performance of the model and increase the 
-accuracy and efficiency. Moreover, continuous updates to the training dataset must be
-made to ensure we remain vigilant against new spam tactics.
+    Statistical analysis is a useful approach to detecting news spam. Techniques such as EDA and feature engineering can improve the performance of the model and increase the 
+accuracy and efficiency. Moreover, continuous updates to the training dataset must bemade to ensure we remain vigilant against new spam tactics.
 
 ### 3.1 Mean, Median, Mode
-News spam detection, "mean," "median," and "mode" are statistical concepts that can be 
-applied to analyze various aspects of data related to news articles, features, or metrics.
+News spam detection, "mean," "median," and "mode" are statistical concepts that can be applied to analyze various aspects of data related to news articles, features, or metrics.
 
 #### Mean
-The mean is a measure of central tendency that represents the average value of a dataset. 
-It is calculated by summing up all the values in the dataset and then dividing by the 
-total number of values. In the context of news spam detection, you can calculate the 
-mean for various metrics or features to understand the typical or average behavior.
+The mean is a measure of central tendency that represents the average value of a dataset. It is calculated by summing up all the values in the dataset and then dividing by the total number of values. In the context of news spam detection, you can calculate the mean for various metrics or features to understand the typical or average behavior.
 
-Example: You could calculate the mean length of news articles in a dataset to see how 
-long the average article is. This information might be useful for distinguishing spammy 
-short articles from legitimate longer ones.
+Example: You could calculate the mean length of news articles in a dataset to see how long the average article is. This information might be useful for distinguishing spammy short articles from legitimate longer ones.
 
 #### Median
-The median is another measure of central tendency that represents the middle 
-value in a dataset when the values are sorted in ascending or descending order. 
-If there is an even number of values, the median is the average of the two middle 
-values. The median is useful when dealing with datasets that may have outliers 
-or extreme values that can skew the mean.
+The median is another measure of central tendency that represents the middle value in a dataset when the values are sorted in ascending or descending order. If there is an even number of values, the median is the average of the two middle values. The median is useful when dealing with datasets that may have outliers or extreme values that can skew the mean.
 
-Example: In news spam detection, you might calculate the median publication 
-date of articles to find the midpoint in time. This could help identify anomalies 
-in the publication dates that may be indicative of spam.
+Example: In news spam detection, you might calculate the median publication date of articles to find the midpoint in time. This could help identify anomalies in the publication dates that may be indicative of spam.
 
 #### Mode
-The mode is the value that appears most frequently in a dataset. It represents the 
-most common value or category. In the context of news spam detection, the 
-mode can be used to identify patterns or categories that occur most frequently.
+The mode is the value that appears most frequently in a dataset. It represents the most common value or category. In the context of news spam detection, the mode can be used to identify patterns or categories that occur most frequently.
 
-Example: You could calculate the mode of the topics or categories of news 
-articles in a dataset to identify the most prevalent subjects. This information 
-might be useful for understanding the content distribution and potentially 
-spotting patterns that could be associated with spam topics.
+Example: You could calculate the mode of the topics or categories of news articles in a dataset to identify the most prevalent subjects. This information might be useful for understanding the content distribution and potentially spotting patterns that could be associated with spam topics.
 
 ``` python
 %pip install scipy
@@ -118,16 +97,10 @@ print(f"Mode: {label_mode} (occurs {label_mode_count} times)")
 ```
 
 ### 3.2 F- Test (Annova)
-ANNOVA (Analysis of Variance) and t-tests are statistical techniques used for different 
-purposes, but they can both be applied in the context of news spam detection, 
-particularly when you want to compare the means of multiple groups or datasets to 
-determine if there are significant differences. Let's explore how ANOVA and t-tests 
-can be used for news spam detection:
+ANNOVA (Analysis of Variance) and t-tests are statistical techniques used for different purposes, but they can both be applied in the context of news spam detection, particularly when you want to compare the means of multiple groups or datasets to determine if there are significant differences. Let's explore how ANOVA and t-tests can be used for news spam detection:
 
   #### ANNOVA (Analysis of Variance): 
-  ANNOVA is used when you want to compare 
-  the means of three or more groups to determine if there are statistically significant 
-  differences among them. In the context of news spam detection.
+  ANNOVA is used when you want to compare the means of three or more groups to determine if there are statistically significant differences among them. In the context of news spam detection.
   
   ##### Feature Comparison:
   You may have multiple features or metrics extracted 
