@@ -124,21 +124,16 @@ print(f"P-value: {p_value}")
 #### 3.3 T-Test:
 
 ##### Formulate Hypotheses
-* Null Hypothesis (H0): There is no significant difference in the average word 
-count between spam and legitimate news articles.
-* Alternative Hypothesis (H1): There is a significant difference in the average 
-word count between spam and legitimate news articles.
+* Null Hypothesis (H0): There is no significant difference in the average word count between spam and legitimate news articles.
+* Alternative Hypothesis (H1): There is a significant difference in the average word count between spam and legitimate news articles.
 
 ##### Perform the t-test:
-If the variances of the two samples are roughly equal, you can use the independent twosample t-test (also known as the Student's t-test).If the variances are significantly different, 
-consider using the Welch's t-test, which is more robust to unequal variances.
+If the variances of the two samples are roughly equal, you can use the independent twosample t-test (also known as the Student's t-test).If the variances are significantly different, consider using the Welch's t-test, which is more robust to unequal variances.
 
 ##### Calculate the t-statistic and p-value:
-The t-statistic measures the difference between the means of the two groups relative to the 
-variation within each group.
+The t-statistic measures the difference between the means of the two groups relative to the variation within each group.
 
-The p-value indicates the probability of observing a difference as extreme as the one you
-calculated, assuming that the null hypothesis is true.
+The p-value indicates the probability of observing a difference as extreme as the one you calculated, assuming that the null hypothesis is true.
 
 ```python
 # Create a new column 'text_length' with the length of the 'text' column
