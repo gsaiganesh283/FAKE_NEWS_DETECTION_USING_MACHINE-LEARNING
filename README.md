@@ -488,24 +488,13 @@ Example: Suppose the unsupervised learning algorithm is given an input dataset c
 #### Types of Unsupervised Learning Algorithm:
 
 * ##### Clustering:
-Clustering is a method of grouping the objects into clusters such that 
-objects with most similarities remains into a group and has less or no similarities with 
-the objects of another group. Cluster analysis finds the commonalities between the data 
-objects and categorizes them as per the presence and absence of those commonalities.
+Clustering is a method of grouping the objects into clusters such that objects with most similarities remains into a group and has less or no similarities with the objects of another group. Cluster analysis finds the commonalities between the data objects and categorizes them as per the presence and absence of those commonalities.
 
 * ##### Association:
-An association rule is an unsupervised learning method which is used for 
-finding the relationships between variables in the large database. It determines the set 
-of items that occurs together in the dataset. Association rule makes marketing strategy 
-more effective. Such as people who buy X item (suppose a bread) are also tend to 
-purchase Y (Butter/Jam) item. A typical example of Association rule is Market Basket 
-Analysis.
+An association rule is an unsupervised learning method which is used for finding the relationships between variables in the large database. It determines the set of items that occurs together in the dataset. Association rule makes marketing strategy more effective. Such as people who buy X item (suppose a bread) are also tend to purchase Y (Butter/Jam) item. A typical example of Association rule is Market Basket Analysis.
 
 #### 5.1 K-Mean
-K-means is a popular clustering algorithm used in machine learning and data mining. 
-It is often employed to partition a dataset into K clusters where each data point belongs 
-to the cluster with the nearest mean. The "K" in K-means refers to the number of 
-clusters that the algorithm should partition the data into.
+K-means is a popular clustering algorithm used in machine learning and data mining. It is often employed to partition a dataset into K clusters where each data point belongs to the cluster with the nearest mean. The "K" in K-means refers to the number of clusters that the algorithm should partition the data into.
 
 ##### The algorithm works in the following way:
 
@@ -519,17 +508,12 @@ clusters that the algorithm should partition the data into.
   Recalculate the centroids of the newly formed clusters.
 
 * ###### Repeat:
-  Repeat steps 2 and 3 until the centroids no longer change significantly or a 
-  maximum number of iterations is reached.
+  Repeat steps 2 and 3 until the centroids no longer change significantly or a maximum number of iterations is reached.
 
-The K-means algorithm aims to minimize the within-cluster sum of squares, which is a measure 
-of the variance within each cluster. It is an iterative process that may not guarantee a global 
-optimum, as the results depend on the initial selection of centroids.
+The K-means algorithm aims to minimize the within-cluster sum of squares, which is a measure of the variance within each cluster. It is an iterative process that may not guarantee a global optimum, as the results depend on the initial selection of centroids.
 
 
-K-means is widely used for clustering tasks, such as customer segmentation, image 
-segmentation, and pattern recognition. It is relatively easy to implement and computationally 
-efficient, making it a popular choice for many clustering applications.
+K-means is widely used for clustering tasks, such as customer segmentation, image segmentation, and pattern recognition. It is relatively easy to implement and computationally efficient, making it a popular choice for many clustering applications.
 
 ```python
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -553,10 +537,7 @@ print(kmeans.cluster_centers_)
 ```
 
 #### 5.2 Principal Component Analysis
-Principal Component Analysis (PCA) is a dimensionality reduction technique commonly 
-used in data analysis and machine learning. Its primary objective is to transform a highdimensional dataset into a lower-dimensional form while retaining as much of the original 
-data's variance as possible. PCA achieves this by finding a set of orthogonal axes (principal 
-components) along which the data varies the most.
+Principal Component Analysis (PCA) is a dimensionality reduction technique commonly used in data analysis and machine learning. Its primary objective is to transform a highdimensional dataset into a lower-dimensional form while retaining as much of the original data's variance as possible. PCA achieves this by finding a set of orthogonal axes (principal components) along which the data varies the most.
 
 ##### Here's a high-level overview of how PCA works:
 
