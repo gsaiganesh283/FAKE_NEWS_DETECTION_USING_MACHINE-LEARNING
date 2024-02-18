@@ -758,16 +758,12 @@ Extend the project to multiple languages, enabling the detection of fake news in
 
 #### Libraries and Tools:
 ##### scikit-learn: 
-A popular machine learning library in Python for building and evaluating 
-machine learning models. scikit-learn
+A popular machine learning library in Python for building and evaluating machine learning models. scikit-learn
 ##### TensorFlow and Keras: 
-Deep learning libraries for creating and training neural 
-networks. TensorFlow, Keras
+Deep learning libraries for creating and training neural networks. TensorFlow, Keras
 ##### Tutorials and Courses:
-* Coursera's "Introduction to Data Science" (offered by the University of Washington) 
-includes a section on fake news detection.
-* edX's "Data Science MicroMasters" program, especially the courses related to natural 
-language processing and text analysis.
+* Coursera's "Introduction to Data Science" (offered by the University of Washington) includes a section on fake news detection.
+* edX's "Data Science MicroMasters" program, especially the courses related to natural language processing and text analysis.
 ##### Online Articles and Blog Posts:
 * "Fake News Detection with Machine Learning" by Towards Data Science. 
 * "How to Build a Fake News Detection Model" by Analytics Vidhya. 
