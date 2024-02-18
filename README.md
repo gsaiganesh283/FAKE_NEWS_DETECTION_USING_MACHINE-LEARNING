@@ -24,24 +24,19 @@ news spam detection systems into their workflows to maintain the integrity of th
       News websites are the primary source of data for analysis, as they contain a wealth of information. Social media platforms such as Twitter and Facebook are also useful in identifying trending news        topics, but algorithms should be employed to avoid the spread of misinformation.
 
   * ##### Criteria for Selecting and Labeling Spam Articles:
-      Criteria for identifying spam include sensational headlines, false claims, and click-bait 
-      style content. Labeling spam is essential to create a reliable training dataset.
+      Criteria for identifying spam include sensational headlines, false claims, and click-bait style content. Labeling spam is essential to create a reliable training dataset.
 
   * ##### Challenges in Collecting and Annotating the Data:
       The challenge in collecting and annotating data lies in the need to create a dataset that adequately covers the potential set of spam tactics. This is an ever-changing landscape, with new forms of        spam emerging constantly.
 
   * ##### Exploratory Data Analysis:
-      EDA techniques such as histograms, scatter plots, and heatmaps are useful in 
-      identifying patterns in the data.
+      EDA techniques such as histograms, scatter plots, and heatmaps are useful in identifying patterns in the data.
 
   * ##### Feature Engineering and Selection:
-      Feature engineering uses domain knowledge to extract relevant features from the data, 
-      while feature selection aims to remove irrelevant or redundant ones, improving the 
-      performance and computationally efficiency of the model.
+      Feature engineering uses domain knowledge to extract relevant features from the data, while feature selection aims to remove irrelevant or redundant ones, improving the performance and computationally efficiency of the model.
 
   * ##### Application of Machine Learning Algorithms:
-      Various machine learning algorithms such as Naive Bayes, Support Vector Machines, 
-      and Random Forests are utilized to classify spam articles.
+      Various machine learning algorithms such as Naive Bayes, Support Vector Machines, and Random Forests are utilized to classify spam articles.
 
   * ##### Evaluation Metrics:
     |    |    |
