@@ -194,19 +194,10 @@ spam detection refers to the automated process of identifying and filtering out 
 In today's digital age, where the spread of false information can have profound consequences, the importance of news spam detection cannot be overstated. It helps maintain the integrity of news platforms, fosters trust among readers, and safeguards the democratic process. By combating fake news, news spam detection contributes to a more informed society and a healthier online ecosystem.
 
 ##### Linear Regression
-Linear regression is a statistical modeling technique used to establish a 
-relationship between a dependent variable and one or more independent 
-variables. In the context of news spam detection, linear regression can be 
-employed to analyze various features of news articles and predict their 
-authenticity or spam likelihood. By identifying patterns and correlations, linear 
-regression aids in the accurate classification of news articles.
+Linear regression is a statistical modeling technique used to establish a relationship between a dependent variable and one or more independent variables. In the context of news spam detection, linear regression can be employed to analyze various features of news articles and predict their authenticity or spam likelihood. By identifying patterns and correlations, linear regression aids in the accurate classification of news articles.
 
 ##### Application of Linear Regression in News Spam Detection
-Linear regression finds numerous applications in news spam detection. It can 
-be utilized to determine the relevance and impact of different features such as 
-article length, keyword frequency, tone analysis, and source credibility. By 
-training a linear regression model on labeled data, it becomes possible to predict 
-the likelihood of an article being spam or genuine, facilitating effective news 
+Linear regression finds numerous applications in news spam detection. It can be utilized to determine the relevance and impact of different features such as article length, keyword frequency, tone analysis, and source credibility. By training a linear regression model on labeled data, it becomes possible to predict the likelihood of an article being spam or genuine, facilitating effective news 
 filtering and quality control.
 
 ```python
