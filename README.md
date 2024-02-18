@@ -151,11 +151,7 @@ print(f"P-value: {p_value}")
 ```
 
 #### 3.4 Chi-Test
-News spam detection is a critical aspect of maintaining the integrity and 
-credibility of online news sources. With the rising prevalence of spam emails 
-and messages, it is imperative to employ effective techniques to differentiate 
-genuine news from spam. In this article, we will explore various techniques and 
-shed light on the powerful role of the Chi-Squared test in this domain.
+News spam detection is a critical aspect of maintaining the integrity and credibility of online news sources. With the rising prevalence of spam emails and messages, it is imperative to employ effective techniques to differentiate genuine news from spam. In this article, we will explore various techniques and shed light on the powerful role of the Chi-Squared test in this domain.
 
 ```python
 from scipy.stats import chi2_contingency
@@ -189,25 +185,13 @@ print(f"P-value: {p}")
 <img src="https://github.com/gsaiganesh283/FAKE_NEWS_DETECTION_USING_MACHINE-LEARNING/assets/121511326/dba9ae66-ae40-4e24-80b4-4755d44b4489" />
 </p>
 
-News spam can harm the credibility of news media. Supervised learning is a promising 
-approach for detecting spam in news articles. Good performance relies on high-quality training 
-data, accurate labeling, and evaluation metrics. We hope this article sheds some light on the 
-importance of spam detection in news, and how machine learning can help.
+News spam can harm the credibility of news media. Supervised learning is a promising approach for detecting spam in news articles. Good performance relies on high-quality training data, accurate labeling, and evaluation metrics. We hope this article sheds some light on the importance of spam detection in news, and how machine learning can help.
 
 #### 4.1 Linear Regression
-spam detection refers to the automated process of identifying and filtering out 
-fraudulent or misleading news articles from legitimate sources. By utilizing 
-advanced algorithms and machine learning techniques, news spam detection 
-systems can effectively distinguish between authentic news and fake news, 
-ensuring that users are well-informed and protected from misinformation.
+spam detection refers to the automated process of identifying and filtering out fraudulent or misleading news articles from legitimate sources. By utilizing advanced algorithms and machine learning techniques, news spam detection systems can effectively distinguish between authentic news and fake news, ensuring that users are well-informed and protected from misinformation.
 
 ##### Importance of News Spam Detection
-In today's digital age, where the spread of false information can have profound 
-consequences, the importance of news spam detection cannot be overstated. It 
-helps maintain the integrity of news platforms, fosters trust among readers, and 
-safeguards the democratic process. By combating fake news, news spam 
-detection contributes to a more informed society and a healthier online 
-ecosystem.
+In today's digital age, where the spread of false information can have profound consequences, the importance of news spam detection cannot be overstated. It helps maintain the integrity of news platforms, fosters trust among readers, and safeguards the democratic process. By combating fake news, news spam detection contributes to a more informed society and a healthier online ecosystem.
 
 ##### Linear Regression
 Linear regression is a statistical modeling technique used to establish a 
