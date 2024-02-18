@@ -103,26 +103,15 @@ ANNOVA (Analysis of Variance) and t-tests are statistical techniques used for di
   ANNOVA is used when you want to compare the means of three or more groups to determine if there are statistically significant differences among them. In the context of news spam detection.
   
   ##### Feature Comparison:
-  You may have multiple features or metrics extracted 
-      from news articles (e.g., article length, keyword frequency, publication time)
-      that you suspect could be different between legitimate news, spam, and 
-      possibly other categories (e.g., clickbait). ANNOVA can be used to assess 
-      whether there are statistically significant differences in these features across 
-      the different categories.
+  You may have multiple features or metrics extracted from news articles (e.g., article length, keyword frequency, publication time) that you suspect could be different between legitimate news, spam, and 
+  possibly other categories (e.g., clickbait). ANNOVA can be used to assess whether there are statistically significant differences in these features across the different categories.
 
   ##### Evaluation Metrics: 
-  ANNOVA can also be applied to compare the 
-performance of different news spam detection models or algorithms. For 
-example, if you have several algorithms and you want to determine if there are 
-significant differences in their accuracy, F1-score, or other evaluation metrics, 
-ANNOVA can help.
+  ANNOVA can also be applied to compare the performance of different news spam detection models or algorithms. For example, if you have several algorithms and you want to determine if there are 
+significant differences in their accuracy, F1-score, or other evaluation metrics, ANNOVA can help.
+
   ##### F-test: 
-   It is commonly used in hypothesis testing to compare the equality of 
-variances of two samples. It is based on the ratio of the variances of the two samples. 
-If the ratio is greater than a certain threshold, the null hypothesis of equal variances 
-is rejected, and the alternative hypothesis of unequal variances is accepted. F-test is 
-widely used in data science and machine learning, especially in feature selection and 
-regression analysis.
+   It is commonly used in hypothesis testing to compare the equality of variances of two samples. It is based on the ratio of the variances of the two samples. If the ratio is greater than a certain threshold, the null hypothesis of equal variances is rejected, and the alternative hypothesis of unequal variances is accepted. F-test is widely used in data science and machine learning, especially in feature selection and regression analysis.
 
 ``` python
 # Perform ANOVA F-test
