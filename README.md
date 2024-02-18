@@ -335,29 +335,14 @@ print(f"Classification Report:\n{classification_rep}")
 | Weighted avg | 0.71 | 0.70 | 0.70 |
 
 #### 4.5 K- Nearest Neighbour
-Machine learning algorithm like the K-Nearest Neighbors (KNN) algorithm, does better with 
-finding similarities between observations and this is an important factor needed for false news 
-detection. As the complexity of the decision boundaries grows, the accuracy of KNN is 
-reduced. This leads to acquiring more data thereby increasing accuracy. Real-time predictions 
-cannot be made using KNN but in Naïve Bayes (NB) algorithm, real-time predictions can be 
-made. However, as to improve performance model, there is need to ensemble KNN algorithm 
-with NB algorithm to build a K-Nearest Neighbor Bayesian model.
+Machine learning algorithm like the K-Nearest Neighbors (KNN) algorithm, does better with finding similarities between observations and this is an important factor needed for false news detection. As the complexity of the decision boundaries grows, the accuracy of KNN is reduced. This leads to acquiring more data thereby increasing accuracy. Real-time predictions cannot be made using KNN but in Naïve Bayes (NB) algorithm, real-time predictions can be made. However, as to improve performance model, there is need to ensemble KNN algorithm with NB algorithm to build a K-Nearest Neighbor Bayesian model.
 
 * A model is developed which can be used to classify textual features as false or true.
-* The model is implemented using K-Nearest Neighbors (KNN) and Naïve Bayes (NB) for the 
-classification of data features.
-* Term frequency-inverse document frequency (TF-IDF) + Word2vector (Word2Vec) are used 
-for feature extraction to substitute the single feature extraction methods known. Feature 
-extraction is the process of changing textual data into numbers representations for the 
-algorithm(s) to work on without losing information in the given data set.
+* The model is implemented using K-Nearest Neighbors (KNN) and Naïve Bayes (NB) for the classification of data features.
+* Term frequency-inverse document frequency (TF-IDF) + Word2vector (Word2Vec) are used for feature extraction to substitute the single feature extraction methods known. Feature extraction is the process of changing textual data into numbers representations for the algorithm(s) to work on without losing information in the given data set.
 
-In classifying news as false or true, the dataset is randomly split into training and testing set by 
-using sklearn. model selection package’s train-test-split method. 80 percent of the dataset was 
-used for training and 20 percent was used for testing. The feature sets which are now in vectors 
-of real numbers, are passed through the machine learning algorithm. The machine learning 
-algorithms, K-Nearest Neighbors and Naïve Bayes are combined to classify the text as false or 
-true. K-Nearest Neighbors is used first to calculate Euclidean distance then, Naïve Bayes is 
-used to calculating the class of the query.
+In classifying news as false or true, the dataset is randomly split into training and testing set by using sklearn. model selection package’s train-test-split method. 80 percent of the dataset was 
+used for training and 20 percent was used for testing. The feature sets which are now in vectors of real numbers, are passed through the machine learning algorithm. The machine learning algorithms, K-Nearest Neighbors and Naïve Bayes are combined to classify the text as false or true. K-Nearest Neighbors is used first to calculate Euclidean distance then, Naïve Bayes is used to calculating the class of the query.
 
 ```python
 from sklearn.neighbors import KNeighborsClassifier
@@ -384,29 +369,22 @@ print(f"Classification Report:\n{classification_rep}")
 | Macro avg | 0.70 | 0.70 | 0.70 |
 | Weighted avg | 0.70 | 0.70 | 0.70 |
 
-For evaluating the proposed model on textual data, five metrices were used which are, 
-Accuracy measures, Precision, Recall, F1-Score, Area Under the Curve- Receiver Operator 
-Characteristics (AUC-ROC Curve). These metrics are described below. 
+For evaluating the proposed model on textual data, five metrices were used which are, Accuracy measures, Precision, Recall, F1-Score, Area Under the Curve- Receiver Operator Characteristics (AUC-ROC Curve). These metrics are described below. 
 
 * ##### Accuracy:
-   It is a measure of the correct number of predictions to the total number of 
-predictions in the data. So the higher the accuracy of the false news detection, the 
-better.
+It is a measure of the correct number of predictions to the total number of predictions in the data. So the higher the accuracy of the false news detection, the better.
 
 * ##### True Positive (TP):
-  True Positive represents the value of correct predictions of positives out 
-of actual positive cases.
+True Positive represents the value of correct predictions of positives out of actual positive cases.
 
 * ##### False Positive (FP):
   False positive represents the value of incorrect positive predictions.
   
 * ##### True Negative (TN):
-  True negative represents the value of correct predictions of negatives 
-out of actual negative cases.
+  True negative represents the value of correct predictions of negatives out of actual negative cases.
 
 * ##### False Negative (FN):
-  False negative represents the value of incorrect negative 
-predictions.
+  False negative represents the value of incorrect negative predictions.
 
 $$ Accuracy = {Correct Perdiction \over Total Prediction} = { TP + TN \over TP + FN + TN + FP} $$
 
