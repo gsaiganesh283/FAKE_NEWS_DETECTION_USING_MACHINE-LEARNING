@@ -1,6 +1,7 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Python script
+- name: Jupyterbook Action
+# You may pin to the exact commit or the version.
 
 # Controls when the workflow will run
 on:
@@ -21,4 +22,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a Python script
-        run: python .github/workflows/Fake_News_Prediction.ipynb
+        run: Jupyterbook .github/workflows/Fake_News_Prediction.ipynb
