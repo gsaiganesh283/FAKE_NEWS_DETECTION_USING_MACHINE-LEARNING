@@ -21,4 +21,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a Python script
-        run: python .github/workflow/Fake_News_Prediction.ipynb
+        run: FAKE_NEWS_DETECTION_USING_MACHINE-LEARNING .github/workflow/example.py
