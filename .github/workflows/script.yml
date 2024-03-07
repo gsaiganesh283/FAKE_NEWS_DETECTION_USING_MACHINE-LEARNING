@@ -28,7 +28,7 @@ jobs:
           pip install numpy # Install numpy to excute the notebook formulas
           pip install pandas # Install pandas to excute the notebook 
           pip install scipy # Install scipy
-          pip install sklearn # Install sklearn
+          pip install scikit-learn # Install sklearn
           pip install keras # Install Keras
           pip install tenserflow # Install tenserflow
           
