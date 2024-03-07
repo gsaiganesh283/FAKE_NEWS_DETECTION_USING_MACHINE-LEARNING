@@ -31,6 +31,7 @@ jobs:
           pip install scikit-learn # Install sklearn
           pip install keras # Install Keras
           pip install tensorflow # Install tensorflow
+          pip install statsmodels # Install statsmodels
           
           
 
