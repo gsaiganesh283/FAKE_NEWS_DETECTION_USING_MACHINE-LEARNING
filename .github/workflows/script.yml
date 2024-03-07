@@ -30,7 +30,7 @@ jobs:
           pip install scipy # Install scipy
           pip install scikit-learn # Install sklearn
           pip install keras # Install Keras
-          pip install tenserflow # Install tenserflow
+          pip install tensorflow # Install tensorflow
           
           
 
