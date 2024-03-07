@@ -1,24 +1,32 @@
-# This is a basic workflow to help you get started with Actions
-name: Jupyterbook script
-# You may pin to the exact commit or the version.
+name: Run Jupyter Notebook
 
-# Controls when the workflow will run
 on:
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+  push:
+    branches:
+      - main  # Set the branch you want to trigger the action on
+  pull_request:
+    branches:
+      - main  # Set the branch you want to trigger the action on
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+  run_notebook:
+    runs-on: ubuntu-latest  # You can choose the appropriate runner based on your requirements
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: Run a Python script
-        run: Jupyterbook .github/workflows/Fake_News_Prediction.ipynb
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'  # Choose the Python version you want to use
+
+      - name: Install dependencies
+        run: |
+          pip install notebook  # Install Jupyter Notebook
+          pip install nbconvert  # Install nbconvert to convert notebooks to other formats if needed
+          pip install -r requirements.txt  # Install other project dependencies if needed
+
+      - name: Run Jupyter Notebook
+        run: |
+          jupyter nbconvert --to notebook --execute Fake_News_Prediction.ipynb --output executed_notebook.ipynb
